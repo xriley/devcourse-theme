@@ -4,6 +4,8 @@
 
 **Demo:** https://themes.3rdwavemedia.com/demo/devcourse/
 
+**Details:** https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-4-course-landing-page-template/
+
 DevCourse is a **free Bootstrap course landing page template** made for developers.
 
 ## Author & License
