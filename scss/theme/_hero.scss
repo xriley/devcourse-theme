@@ -1,0 +1,73 @@
+/* ============= Hero ============= */
+
+/* Header */
+.hero-section {
+	position: relative;
+	background: url("../images/hero-bg.jpg") no-repeat center center;
+	@include background-size(cover);
+	min-height: 400px;
+	color: #fff;
+	
+	.container {
+		position: relative;
+		z-index: 10;
+	}
+}
+
+.hero-heading-upper {
+	font-size: 1.375rem;
+	font-weight: 500;
+}
+
+.hero-heading {
+	color: #fff;	
+	font-size: 2rem;
+	font-weight: 700;
+
+	.brand {
+		font-size: 4rem;
+		.name {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 800;
+		}
+		.text-highlight {
+			color: $theme-color-primary;
+		}
+	}
+}
+
+.hero-summary {
+
+	.item {
+		border-right: 1px solid rgba(256, 256, 256, 0.3);
+		&:last-child {
+			border-right: none;
+		}
+	}
+	.summary-heading {
+		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 900;
+		
+	}
+	
+	.summary-desc {
+		color: rgba(256, 256, 256, 0.8);
+	}
+	
+	.icon {
+		position: relative;
+		top: 2px;
+	}
+}
+
+.hero-mask {
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+
+}
+
