@@ -1,0 +1,75 @@
+/* ======= Modal ======= */
+.modal button.btn-close {
+    font-size: 2rem;
+    @include opacity(1 !important);
+    font-weight: bold;
+    text-shadow: none;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index:10;
+    width: 45px;
+    height: 45px;
+    background: $theme-text-color-primary;
+    color: #fff;
+    outline: none;
+
+    padding-top: 0;
+    margin: 0;
+    &:hover {
+	    
+        background: $theme-color-primary;
+        color: #fff !important;
+        cursor: pointer;
+    }
+}
+
+.modal button.btn-close {
+	display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow:none;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    z-index:10;
+    @include opacity(1 !important);
+    @include border-radius(0);
+    background: $theme-text-color-primary;
+    color: #fff;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border:none;
+    &:hover {
+	    
+        background: $theme-color-primary;
+        color: #fff !important;
+        cursor: pointer;
+    }
+}
+
+
+
+.modal-video {
+    .modal-content {
+        background: none;
+        border: none;
+        @include box-shadow(none);
+    }
+    .modal-body {
+        padding: 0;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	.modal-dialog {
+        max-width: 820px;
+    }
+    
+}

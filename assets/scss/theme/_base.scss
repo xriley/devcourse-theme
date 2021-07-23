@@ -1,0 +1,193 @@
+/* ============= Base ============= */
+
+
+/*********** Theme Generic **********/
+body {
+	font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $theme-text-color-secondary;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $theme-text-color-primary;
+	font-weight: 700;
+}
+
+a {
+	color: darken($theme-color-primary, 15%);
+	text-decoration: none;
+	&:hover {
+		color: $theme-color-primary;
+		text-decoration: underline;
+	}
+}
+
+
+
+.btn {
+	font-weight: 600;
+	padding: 0.75rem 2rem;
+	@include transition (all 0.4s ease-in-out);
+	@include border-radius(30px);
+	border: none;
+	@include box-shadow(0 4px 15px -6px rgba(0,0,0,0.15));
+	&:hover, &.hover {
+       @include box-shadow(0 4px 20px -6px rgba(0,0,0,0.2));
+	}
+	&:focus, &.focus {
+		box-shadow: none !important;
+	}
+}
+
+
+
+.btn-primary {
+   background: $theme-color-primary;
+   color: white;
+   text-decoration: none;
+   &:hover {
+	   background: lighten($theme-color-primary, 5%);
+	   text-decoration: none;
+	   
+   }
+}
+
+
+.btn-ghost {
+	background: white;
+	color: $theme-color-primary !important;
+	border: 2px solid $theme-color-primary;
+	text-decoration: none;
+	&:hover {
+		background: white;
+		color: darken($theme-color-primary, 5%) !important;
+		border: 2px solid darken($theme-color-primary, 5%);
+		text-decoration: none;
+	}
+}
+
+.badge {
+	color: #fff;
+}
+
+.over-section-bg {
+	z-index: 10;
+	position: relative;
+}
+
+
+.form-control {
+	padding-top: 0.875rem;
+	padding-bottom: 0.875rem;
+	height: 45px;
+	border-color: darken($theme-bg-light, 5%);
+	
+	&:focus {
+		box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+		outline: none;
+	}
+}
+
+
+.theme-text-primary {
+	color: $theme-text-color-primary;
+}
+
+.theme-text-secondary {
+	color: $theme-text-color-secondary;
+}
+
+.theme-text-light {
+	color: $theme-text-color-light;
+}
+
+.theme-bg-light {
+	background: $theme-bg-light;
+}
+
+.theme-bg-primary {
+	background: $theme-bg-dark;
+}
+
+.theme-bg-dark {
+	background: $theme-text-color-secondary;
+}
+
+
+.single-col-max {
+	max-width: $single-col-max;
+}
+
+.social-list {
+	li {
+		font-size: 1.125rem;
+		background: $theme-bg-light;
+		width: 32px;
+		height: 32px;
+		text-align: center;
+		@include border-radius(50%);
+		padding-top: 3px;
+		a {
+			color: lighten($theme-color-primary, 10%);
+			&:hover {
+				color: $theme-color-primary;
+			}
+		}
+		
+		&:not(:last-child) {
+			margin-right: 0.875rem;
+		}
+	}
+}
+
+
+
+
+/* Footer */
+.footer {
+   	color: $theme-text-color-secondary;
+   	font-size: 0.875rem;
+   	a {
+	   	color: $theme-text-color-secondary;
+		text-decoration: underline;
+	    -webkit-text-decoration-color: rgba($theme-text-color-primary,0.3);
+	    text-decoration-color: rgba($theme-text-color-primary,0.3);
+	    &:hover {
+		    color: $theme-text-color-primary;
+		    -webkit-text-decoration-color: rgba($theme-text-color-primary,0.8);
+		    text-decoration-color: rgba($theme-text-color-primary,0.8);
+	    }
+   	}
+
+}
+
+#topcontrol {
+    @include transition (all 0.4s ease-in-out);
+    background: $theme-text-color-secondary;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    z-index: 30;
+    width: 2.5rem;
+    height: 2.5rem;
+    @include border-radius(0.25rem);
+    @include box-shadow(0 0.125rem 0.25rem rgba(0,0,0,0.075));
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    
+    &:hover {
+        background: $theme-bg-dark;
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+

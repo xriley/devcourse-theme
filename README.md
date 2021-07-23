@@ -1,10 +1,8 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-4-course-landing-page-template/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2020/03/DevCourse-Theme-Promo-Free.jpg" alt="DevCourse - Bootstrap Online Course Landing Page Template For Developers" /></a>
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-5-course-landing-page-template/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2020/05/DevCourse-Theme-Promo.png" alt="DevCourse - Bootstrap Online Course Landing Page Template For Developers" /></a>
 
 ## Theme Details & Demo
 
-**Demo:** https://themes.3rdwavemedia.com/demo/devcourse/
-
-**Details:** https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-4-course-landing-page-template/
+https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-5-course-landing-page-template/
 
 DevCourse is a **free Bootstrap course landing page template** made for developers.
 
@@ -28,7 +26,7 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 
 ## Latest Version
-**v1.1** - 10 Oct 2020
+**Bootstrap 5 v1.0** - 2021-07-23
 
 [Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-4-course-landing-page-template/?target=changelog)
 
@@ -37,9 +35,9 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 -  Fully Responsive
 -  HTML5 + CSS3
--  Built on Bootstrap 4
+-  Built on Bootstrap 5
 -  **SCSS** source files included
--  1500+ FontAwesome 5 icons
+-  1500+ FontAwesome icons
 
 ## Credits
 - [Bootstrap](https://getbootstrap.com/)

@@ -1,0 +1,387 @@
+/* ============= Sections ============= */
+
+/* Section Nav */
+.section-nav-space-holder {
+    height: 64px;
+    position: relative;
+}
+
+.section-nav-wrapper {
+    background: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: $theme-bg-light;
+
+    &.fixed {
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        z-index: 100;
+        @include box-shadow(0 5px 15px 0 rgba(0,0,0,0.08));
+    }
+    a {
+        color: $theme-text-color-primary;
+        text-decoration: none;
+    }
+    .section-nav {	    
+	    justify-content: center;
+
+        li {
+            margin-right: 0.5rem;
+            display:inline-block;
+            background: none;
+            &:hover, &:active {
+                background: none;
+            }
+            
+            a {
+                color: $theme-text-color-primary;
+                padding: inherit;
+                font-weight: 700;
+                padding: 1.25rem 1.5rem;
+                
+                &.active {
+                    color: $theme-color-primary;
+                    background: none;
+                    border-bottom: 3px solid $theme-color-primary;
+                }
+                &:hover {
+                    color: $theme-text-color-primary;
+                }
+                &:hover, &:active, &:focus {
+                    background: none;
+                }
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/* Section Generic */
+
+.section {
+	font-size: 1.125rem;
+}
+
+.section-title {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.section-col-max {
+	max-width: 700px;
+}
+
+
+
+/* Section Overview */
+
+.theme-check-icon {
+	color: $theme-color-primary;
+}
+
+.column-list {
+	columns: 2;
+    column-gap: 3rem;
+    width: 100%;
+    
+    li {
+	    padding-top: 0.5rem;
+	    padding-bottom: 0.5rem;
+    }
+}
+
+
+.data-summary {
+	.item {
+		border-right: 1px solid $theme-divider;
+		&:last-child {
+			border: none;
+		}
+	}
+	.data {
+		font-weight: bold;
+		font-size: 2.5rem;
+		color: $theme-color-primary;
+	}
+	.meta {
+		font-size: 0.75rem;
+		text-transform: uppercase;
+	}
+}
+
+/* Section Content */
+
+.module-accordion {
+	
+	.module-item {
+		border-color: $theme-divider;
+		@include border-radius(0);
+		border-bottom: none;
+		&:last-child {
+			border-bottom: inherit;
+		}
+	}
+	.module-header {
+		padding-top: 1.125rem;
+		padding-bottom: 1.125rem;
+		border-bottom: none;
+	}
+	.module-title {
+		font-size: 1.125rem;
+	}
+	.module-number {
+		color: $theme-text-color-secondary;
+	}
+	.module-toggle {
+		font-weight: bold;
+		color: $theme-text-color-primary;
+		text-decoration: none;
+		display: block;
+		position: relative;
+		padding-left: 1.5rem;
+	}
+	
+	.module-toggle-icon {
+		color: darken($theme-color-primary, 15%);
+		margin-right: 0.25rem;
+		font-weight: normal;
+		font-size: 0.75rem;
+		position: absolute;
+        top: 4px;
+        left: 0;
+	}
+	
+	.module-intro {
+		font-size: 1rem;
+	}
+	
+	.module-sub-item {
+		font-size: 1rem;
+		border-bottom: 1px solid $theme-divider;
+		&:last-child {
+			border: none;
+		}
+		
+	}
+	.extra-info {
+		color: $theme-text-color-light;
+		font-size: 0.875rem;
+	}
+}
+
+/* Section Requirements */
+
+.lead-form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+
+/* Section Tutor */
+
+.section-tutor {	
+	color: #fff;
+	
+	.section-bg-container {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: $theme-color-primary url('../images/section-bg.jpg') no-repeat center center;
+	    @include background-size(cover);
+	    @include opacity(0.08);
+	}
+}
+
+/* Section FAQ */
+
+.faq-items {
+	.item {
+		margin-bottom: 2rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.faq-q {
+		font-size: 1.125rem;
+	}
+	.faq-a {
+		font-size: 1rem;
+	}
+}
+
+
+/* Section Pricing */
+
+.plan-item {
+	
+	border: 1px solid $theme-divider;
+	height: 100%;
+	padding-bottom: 80px;
+	position: relative;
+	
+	.plan-heading {
+		font-size: 1.125rem;
+		text-align: center;
+		font-weight: 900;
+		margin-bottom: 0;
+		color: #fff;
+	}
+	
+	.plan-details {
+		
+		border-top: 0;
+	}
+	
+	.plan-price {
+		font-size: 2.25rem;
+		color: $theme-text-color-primary;
+	}
+	.plan-price-desc {
+		font-size: 0.875rem;
+	}
+	.plan-content {
+		height: 100%;
+	}
+	.plan-content-intro {
+		font-weight: bold;
+		margin-bottom: 1rem;
+		font-size: 1rem;
+	}
+	
+	.plan-content-list {
+		font-size: 1rem;
+		li {
+			margin-bottom: 0.5rem;
+		}
+	}
+	.plan-cta {
+		
+		position: absolute;
+		width: 100%;
+		
+		bottom: 2rem;
+		left: 0;
+	}
+	
+}
+
+
+/* Section Reviews */
+
+.review-item {
+	
+	border: 1px solid $theme-divider;
+	position: relative;
+	height: 100%;
+	
+	&.item-promo {
+		font-size: 1.25rem;
+		font-weight: bold;
+		align-self: center;
+		text-align: center;
+		background: $theme-color-primary;
+		color: #fff;
+		.item-promo-heading {
+			color: #fff;
+		}
+		.item-promo-desc {
+			font-size: 1.125srem;
+		}
+	}
+	
+	.quote {
+		font-style: italic;
+	}
+	.source {
+		font-size: 0.875rem;
+	}
+	.profile-image {
+		@include border-radius(50%);
+		
+	}
+	
+	.quote-icon-holder {
+		position: absolute;
+		left: 1rem;
+		top: 0.5rem;
+	}
+    .quote-icon-svg {
+	    
+    }
+	.quote-icon-path {
+		fill: $theme-color-primary;
+	}
+	
+}
+
+
+/* Section Related */
+
+.related-items {
+	.title {
+		font-size: 1.25rem;
+		a {
+			color: $theme-text-color-primary;
+
+		}
+	}
+	.summary {
+		font-size: 1rem;
+	}
+
+	
+	.item {
+		background: $theme-bg-light;
+		height: 100%;
+		&:hover {
+			.item-desc {
+				background: lighten($theme-bg-light, 2%);
+			}
+		}
+	}
+
+}
+
+
+/* Section Contact */
+
+.section-contact {
+	.section-bg-container {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: $theme-color-primary url('../images/section-bg-alt.jpg') no-repeat center center;
+	    @include background-size(cover);
+	    @include opacity(0.08);
+	}
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.profile-image {
+		width: 100px;
+		@include border-radius(50%);
+		border: 3px solid #fff;
+	}
+	.social-list {
+		li {
+			width: auto;
+			height: auto;
+			background: none;
+			color: #fff;
+			font-size: 1.5rem;
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
