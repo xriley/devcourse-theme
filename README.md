@@ -14,7 +14,7 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 #### Follow Xiaoying
 
-[Twitter](https://twitter.com/3rdwave_themes)
+[X](https://x.com/3rdwave_themes)
 
 [Facebook](https://www.facebook.com/3rdwavethemes/)
 
@@ -26,7 +26,7 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 
 ## Latest Version
-**Bootstrap 5 v3.0** - 2023-06-22
+**Bootstrap 5 v3.1** - 2023-09-17
 
 [Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-5-course-landing-page-template/?target=changelog)
 
