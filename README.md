@@ -26,7 +26,7 @@ If you'd like to **use the template without the footer attribution link**, you c
 
 
 ## Latest Version
-**Bootstrap 5 v3.1** - 2023-09-17
+**Bootstrap 5 v3.1** - 2024-09-17
 
 [Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/product/devcourse-bootstrap-5-course-landing-page-template/?target=changelog)
 
